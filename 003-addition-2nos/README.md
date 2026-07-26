@@ -4,22 +4,26 @@ This program takes two integer inputs from the user and displays their sum.
 
 ## Concepts
 
-#include <stdio.h>
-main()
-printf()
-scanf()
-Variables
-Arithmetic operator (+)
+- `#include <stdio.h>`
+- `main()`
+- `printf()`
+- `scanf()`
+- Variables
+- Arithmetic operator (`+`)
 
 ## Run
 
+```bash
 gcc main.c -o main
 ./main
+```
 
 ## Output
 
+```text
 Enter the value of a:
 5
 Enter the value of b:
 7
 The sum of a and b is: 12
+```
