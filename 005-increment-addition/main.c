@@ -6,6 +6,6 @@ int main()
     printf("Enter your number\n");
     scanf("%d",&a);
     a++;
-    printf("addition by ++ = %d", a);
+    printf("increment of 1 by ++ = %d", a);
     return 0;
 }
