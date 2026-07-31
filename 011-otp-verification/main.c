@@ -14,5 +14,4 @@ int main()
         printf("The OTP is invalid");
     }
     return 0;
-
 }
