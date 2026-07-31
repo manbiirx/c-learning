@@ -5,7 +5,7 @@ int main()
     printf("This program will check the validity of your OTP.\n");
     printf("Enter your OTP: ");
     scanf("%d",&a);
-    if (a==2503)
+    if (a==1234)
     {
         printf("The OTP is valid");
     }
