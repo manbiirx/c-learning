@@ -1,6 +1,6 @@
 # 027 - Multiplication Table from 1 to 10
 
-This program demonstrates the use of **nested `for` loops** to generate a multiplication table from `1` to `10`. The outer loop controls the first number, while the inner loop multiplies it by numbers from `1` to `10`.
+This program demonstrates the use of **nested `for` loops** to generate a multiplication table from `1` to `20`. The outer loop controls the first number, while the inner loop multiplies it by numbers from `1` to `10`.
 
 The calculation performed is:
 
@@ -39,7 +39,7 @@ for(initialization; condition; increment/decrement)
 In this program, the outer loop controls the rows and the inner loop controls the columns:
 
 ```c
-for(i = 1; i <= 10; i++)
+for(i = 1; i <= 20; i++)
 {
     for(j = 1; j <= 10; j++)
     {
@@ -76,5 +76,15 @@ gcc main.c -o main
 7 14 21 28 35 42 49 56 63 70
 8 16 24 32 40 48 56 64 72 80
 9 18 27 36 45 54 63 72 81 90
-10 20 30 40 50 60 70 80 90 100
+10 20 30 40 50 60 70 80 90 100 
+11 22 33 44 55 66 77 88 99 110 
+12 24 36 48 60 72 84 96 108 120 
+13 26 39 52 65 78 91 104 117 130 
+14 28 42 56 70 84 98 112 126 140 
+15 30 45 60 75 90 105 120 135 150 
+16 32 48 64 80 96 112 128 144 160 
+17 34 51 68 85 102 119 136 153 170 
+18 36 54 72 90 108 126 144 162 180 
+19 38 57 76 95 114 133 152 171 190 
+20 40 60 80 100 120 140 160 180 200 
 ```
