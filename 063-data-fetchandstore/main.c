@@ -41,7 +41,7 @@ int main()
     printf("----------------------\n");
     while(fscanf(fp,"%d",&roll)==1)
     {
-        fscanf(fp," %49[^0-9] %f",name,&marks);
+        fscanf(fp,"%s %f",name,&marks);
         printf("Roll Number: %d\n",roll);
         printf("Name: %s\n",name);
         printf("Marks: %.2f\n",marks);
